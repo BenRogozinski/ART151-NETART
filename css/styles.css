@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  background-image: url('/img/background-distorted.jpg');
+  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  margin: 10px;
+  padding: 0;
+}
+
+div {
+  width: 400px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 0px;
+  color: transparent;
+}
+
+#div1 {
+  padding-right: 400px;
+  text-shadow: 0 0 0px #ffffff;
+}
+
+#div2 {
+  padding-right: 200px;
+  text-shadow: 0 0 1px #ffffff;
+}
+
+#div3 {
+  text-shadow: 0 0 2px #ffffff;
+}
+
+#div4 {
+  padding-left: 200px;
+  text-shadow: 0 0 3px #ffffff;
+}
+
+#div5 {
+  padding-left: 400px;
+  text-shadow: 0 0 4px #ffffff;
+}
